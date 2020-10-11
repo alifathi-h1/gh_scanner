@@ -143,6 +143,12 @@ class GithubScanner:
                                   '.remote-sync.json': 'filename:.remote-sync.json',
                                   'sftp.json': 'filename:sftp.json path:.vscode',
                                   'WebServers.xml': 'filename:WebServers.xml',
+				  'S3 bucket':'bucket_name', 
+				  'S3 Bucket': 'S3_bucket', 
+				  'S3 Endpoint': 'S3_endpoint',
+				  'AWS Accounts list': 'list_aws_accounts',
+				  'AWS S3 Bucket URL': 's3.amazonaws.com',
+				  'AWS S3 Bucket': 'S3://'
 
                                }
         self.patterns = {'Private Key': ["-{5}BEGIN (EC|RSA|DSA|OPENSSH) PRIVATE KEY-{5}"], 'amazon_secret_access_key':["[0-9a-zA-Z/+]{40}"],
