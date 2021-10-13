@@ -169,6 +169,7 @@ class GithubScanner:
                           'jenkins': 'jenkins',
                           'key-keys': 'key-keys',
                           'POSTGRES Password': 'POSTGRES_PASSWORD',
+                          'SHOPIFY_API_KEY':'SHOPIFY_API_KEY'
 
                           }
         self.patterns = {'Private Key': ["-{5}BEGIN (EC|RSA|DSA|OPENSSH) PRIVATE KEY-{5}"], 'amazon_secret_access_key': ["[0-9a-zA-Z/+]{40}"],
