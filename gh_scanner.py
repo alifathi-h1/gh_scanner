@@ -332,7 +332,7 @@ class GithubScanner:
                 print("[--] URL : " + file.html_url + '\n')
                 self.alerts.append(
                     {'name': pattern_name, 'url': file.html_url})
-            time.slee(2)
+            time.sleep(2)
 
     # scanning org's members to find leaks
     def scanMemebers(self, target):
