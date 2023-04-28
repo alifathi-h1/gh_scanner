@@ -1,3 +1,4 @@
 pygithub
 colorama
 pyfiglet
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
